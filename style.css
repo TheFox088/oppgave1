@@ -1,0 +1,33 @@
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+:root{
+    --background-color: white;
+    --text-color: gray;
+}
+
+.dark-theme{
+    --background-color: black;
+    --text-color: gray;
+}
+
+.toggle-button img{
+    width: 25px;
+    margin-right: 10px;
+    gap: 5px;
+}
+
+.toggle-button{
+    background: rgb(46, 20, 213);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 5px;
+}
